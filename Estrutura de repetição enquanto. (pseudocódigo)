@@ -1,0 +1,14 @@
+algoritmo "taxas"
+var
+valor, taxa, brasil:numerico
+inicio
+ escreval("Digite a taxa de cambio do dolar:")
+  leia(taxa)
+ valor<-1
+enquanto valor <> 0 faca
+ escreval("Digite o valor em dolar:")
+  leia(valor)
+ brasil<-valor*taxa
+escreval("em Real: ",brasil)
+fimenquanto
+fimalgoritmo
